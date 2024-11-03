@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import CustomCursor from "@/components/CustomCursor";
-import Loading from "@/components/loading";
+import Loading from "../components/Loading";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
