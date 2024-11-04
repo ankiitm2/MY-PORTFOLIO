@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import CustomCursor from "@/components/CustomCursor";
 import Loading from "../components/Loading";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Intro";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
