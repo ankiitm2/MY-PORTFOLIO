@@ -1,4 +1,5 @@
 import ThemeSwitcher from "./ThemeSwitcher";
+import { WordRotate } from "./WordRotateText";
 
 const Intro = () => {
   return (
@@ -8,11 +9,12 @@ const Intro = () => {
           <h3>Ankit</h3>
           <h2 className="uppercase">Mishra</h2>
         </div>
-        <div className="details flex justify-between items-center">
+        <div className="details flex justify-between items-center flex-wrap ">
           <div className="boxes flex gap-12 uppercase mt-9 text-sm font-thin">
             <div className="box flex flex-col  gap-2 text-xl">
-              <a href="#">frontend developer</a>
-              <a>ui developer</a>
+              <a href="#">
+                <WordRotate words={["Frontend Developer", "UI Developer"]} />
+              </a>
             </div>
             <div className="box flex flex-col gap-2 ">
               <a
