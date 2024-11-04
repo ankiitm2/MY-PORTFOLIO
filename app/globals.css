@@ -136,3 +136,11 @@ input:checked + .slider:before {
 .cursorDot {
   background-color: blanchedalmond;
 }
+
+/* ------- navbar ------- */
+.navbar {
+  width: -webkit-fill-available;
+}
+ul.list-circle {
+  list-style-type: circle;
+}
