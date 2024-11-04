@@ -11,20 +11,12 @@ export const Meteors = ({ number = 20 }: MeteorsProps) => {
   );
 
   useEffect(() => {
-    const styles = [...new Array(number)].map(() => {
-      const screenWidth = window.innerWidth;
-      const leftPosition =
-        screenWidth < 440
-          ? Math.floor(Math.random() * (screenWidth - 50)) + "px" // Adjusted for small screens
-          : Math.floor(Math.random() * (screenWidth - 120)) + "px"; // Default for larger screens
-
-      return {
-        top: -5,
-        left: leftPosition,
-        animationDelay: Math.random() * 1 + 0.2 + "s",
-        animationDuration: Math.floor(Math.random() * 8 + 2) + "s",
-      };
-    });
+    const styles = [...new Array(number)].map(() => ({
+      top: -5,
+      left: Math.floor(Math.random() * (window.innerWidth - 120)) + "px",
+      animationDelay: Math.random() * 1 + 0.2 + "s",
+      animationDuration: Math.floor(Math.random() * 8 + 2) + "s",
+    }));
     setMeteorStyles(styles);
   }, [number]);
 

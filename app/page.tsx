@@ -29,7 +29,9 @@ export default function Home() {
 
   return (
     <div className="p-10">
-      <Meteors />
+      <div className="hidden sm:block">
+        <Meteors />
+      </div>
       <CustomCursor />
       <Navbar />
     </div>
