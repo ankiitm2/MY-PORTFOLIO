@@ -5,6 +5,8 @@ import Loading from "../components/Loading";
 import Intro from "@/components/Intro";
 import Meteors from "@/components/Meteors";
 import Navbar from "@/components/Navbar";
+import { WordPullUpDemo } from "@/components/WordPullText";
+import BurgerMenuButton from "@/components/BurgerMenuButton";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,14 +32,16 @@ export default function Home() {
 
   return (
     <div className="p-10">
-      <div className="hidden sm:block">
+      <div className="hidden lg:block">
         <Meteors />
       </div>
+      <BurgerMenuButton />
+      <Navbar />
+      <WordPullUpDemo />
+      <Intro />
       <div className="hidden sm:block">
         <CustomCursor />
       </div>
-      <Navbar />
-      <Intro />
     </div>
   );
 }

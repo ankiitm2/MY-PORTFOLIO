@@ -1,17 +1,15 @@
+import DotPattern from "./DotPatternDemo";
 import ThemeSwitcher from "./ThemeSwitcher";
 import { WordRotate } from "./WordRotateText";
 
 const Intro = () => {
   return (
     <>
+      {/* <DotPattern /> */}
       <div className="Intro fixed bottom-5 left-0 px-10">
-        <div className="logo font-extrabold text-7xl">
-          <h3>Ankit</h3>
-          <h2 className="uppercase">Mishra</h2>
-        </div>
         <div className="details flex justify-between items-center flex-wrap ">
           <div className="boxes flex gap-12 uppercase mt-9 text-xl sm:text-sm font-thin flex-wrap">
-            <div className="box flex flex-col  gap-2 text-2xl sm:text-xl">
+            <div className="wordRotate box flex flex-col  gap-2 text-2xl sm:text-xl">
               <a href="#">
                 <WordRotate words={["Frontend Developer", "UI Developer"]} />
               </a>
