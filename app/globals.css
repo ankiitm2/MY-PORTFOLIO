@@ -242,7 +242,7 @@ ul.list-circle {
 /* ---------- responsive ---------- */
 @media screen and (max-width: 741px) {
   #navbar {
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
 
   .burgerMenuButton {
