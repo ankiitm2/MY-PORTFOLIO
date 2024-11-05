@@ -32,7 +32,9 @@ export default function Home() {
       <div className="hidden sm:block">
         <Meteors />
       </div>
-      <CustomCursor />
+      <div className="hidden sm:block">
+        <CustomCursor />
+      </div>
       <Navbar />
     </div>
   );

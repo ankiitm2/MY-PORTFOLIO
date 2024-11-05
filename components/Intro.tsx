@@ -10,8 +10,8 @@ const Intro = () => {
           <h2 className="uppercase">Mishra</h2>
         </div>
         <div className="details flex justify-between items-center flex-wrap ">
-          <div className="boxes flex gap-12 uppercase mt-9 text-sm font-thin flex-wrap">
-            <div className="box flex flex-col  gap-2 text-xl">
+          <div className="boxes flex gap-12 uppercase mt-9 text-xl sm:text-sm font-thin flex-wrap">
+            <div className="box flex flex-col  gap-2 text-2xl sm:text-xl">
               <a href="#">
                 <WordRotate words={["Frontend Developer", "UI Developer"]} />
               </a>
@@ -26,7 +26,7 @@ const Intro = () => {
               <a>gurgaon, india</a>
             </div>
           </div>
-          <ul className="social font-semibold list-circle">
+          <ul className="social font-semibold list-circle mt-2 sm:mt-0">
             <li>
               <a
                 href="https://www.linkedin.com/in/ankit-mishra-3aab7b236"
