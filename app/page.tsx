@@ -2,8 +2,9 @@
 import { useState, useEffect } from "react";
 import CustomCursor from "@/components/CustomCursor";
 import Loading from "../components/Loading";
-import Navbar from "@/components/Intro";
+import Intro from "@/components/Intro";
 import Meteors from "@/components/Meteors";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,6 +37,7 @@ export default function Home() {
         <CustomCursor />
       </div>
       <Navbar />
+      <Intro />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { WordRotate } from "./WordRotateText";
 const Intro = () => {
   return (
     <>
-      <div className="navbar fixed bottom-5 left-0 px-10">
+      <div className="Intro fixed bottom-5 left-0 px-10">
         <div className="logo font-extrabold text-7xl">
           <h3>Ankit</h3>
           <h2 className="uppercase">Mishra</h2>
@@ -54,7 +54,9 @@ const Intro = () => {
           </ul>
         </div>
       </div>
-      <ThemeSwitcher />
+      <div className="absolute top-10">
+        <ThemeSwitcher />
+      </div>
     </>
   );
 };
