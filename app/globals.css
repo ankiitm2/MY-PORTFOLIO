@@ -141,9 +141,22 @@ ul.list-circle {
   list-style-type: circle;
 }
 
+#navbar {
+}
+
 #navbar ul li {
   transform: perspective(400px) rotatey(-11deg);
   transition: all 0.3s;
+  animation: enter 1.3s ease-in;
+}
+
+@keyframes enter {
+  0% {
+    transform: translateY(-20rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .Intro .logo > h3:hover,
@@ -248,7 +261,7 @@ ul.list-circle {
 
   .responsive_desc {
     display: block;
-    top: 12rem;
+    top: 11rem;
   }
 
   .logo {
@@ -258,6 +271,25 @@ ul.list-circle {
   .wordRotate {
     display: none;
   }
+
+  .details .social,
+  .details .box {
+    display: none;
+  }
+
+  .dropdown-menu {
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.751);
+    transition: all 0.3s;
+  }
+
+  .dropdown-menu > div {
+    height: 100%;
+  }
+
   /* 
   .Intro {
     position: absolute;

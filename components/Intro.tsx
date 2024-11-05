@@ -1,11 +1,9 @@
-import DotPattern from "./DotPatternDemo";
 import ThemeSwitcher from "./ThemeSwitcher";
 import { WordRotate } from "./WordRotateText";
 
 const Intro = () => {
   return (
     <>
-      {/* <DotPattern /> */}
       <div className="Intro fixed bottom-5 left-0 px-10">
         <div className="details flex justify-between items-center flex-wrap ">
           <div className="boxes flex gap-12 uppercase mt-9 text-xl sm:text-sm font-thin flex-wrap">
