@@ -239,6 +239,21 @@ ul.list-circle {
   }
 }
 
+/* about */
+.page_logo h1 {
+  position: fixed;
+  top: 1rem;
+  font-size: 2rem;
+  left: 0.8rem;
+  line-height: 1;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.page_logo > div.responsive_desc {
+  display: none;
+}
+
 /* ---------- responsive ---------- */
 @media screen and (max-width: 741px) {
   #navbar {
