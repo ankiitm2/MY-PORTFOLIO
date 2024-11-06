@@ -13,6 +13,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--foreground);
+  scrollbar-width: thin;
 }
 
 .flare {
@@ -45,7 +46,6 @@ body {
 }
 
 /* ---------------- */
-/* Preloader container to cover the entire viewport */
 .preloader {
   position: fixed;
   top: 0;

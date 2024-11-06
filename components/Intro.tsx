@@ -44,7 +44,7 @@ const Intro = () => {
                 href="https://www.linkedin.com/in/ankit-mishra-3aab7b236"
                 target="_blank"
               >
-                instagram
+                twitter
               </a>
             </li>
           </ul>
